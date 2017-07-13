@@ -1,0 +1,36 @@
+{
+  "name": "typeorm-connection-catch-fail",
+  "version": "1.0.0",
+  "description": "Sample app to demonstrate connection error catching not working in typeorm.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajshrimohanks/typeorm-connection-catch-fail.git"
+  },
+  "keywords": [
+    "node",
+    "typeorm",
+    "typescript",
+    "postgres"
+  ],
+  "author": "Rajshri Mohan K S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajshrimohanks/typeorm-connection-catch-fail/issues"
+  },
+  "homepage": "https://github.com/rajshrimohanks/typeorm-connection-catch-fail#readme",
+  "dependencies": {
+    "pg": "^6.4.0",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.1.0-alpha.31"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.11",
+    "@types/pg": "^6.1.42",
+    "typescript": "^2.4.1"
+  }
+}
