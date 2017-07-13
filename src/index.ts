@@ -1,6 +1,6 @@
 // Import stuff required by TypeORM to initialize DB connection.
 import 'reflect-metadata';
-import { createConnection, Connection, ConnectionOptions, getConnection } from 'typeorm';
+import { createConnection } from 'typeorm';
 
 createConnection({
     host: 'localhost',
